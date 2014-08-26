@@ -3,7 +3,7 @@
 # uses this method-name too in their mailer. This is the reason
 # why we need our own Mailer class.
 #
-class HelpdeskMailer < ActionMailer::Base
+class HelpdeskMailer2 < ActionMailer::Base
   helper :application
 
   include Redmine::I18n

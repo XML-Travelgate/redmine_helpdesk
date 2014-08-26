@@ -29,7 +29,7 @@ module RedmineHelpdesk
           # on the first issue.save. So we need to send
           # the notification email to the supportclient
           # on our own.
-          HelpdeskMailer.email_to_supportclient(issue, sender_email).deliver
+          HelpdeskMailer2.email_to_supportclient(issue, sender_email).deliver
         end
         after_dispatch_to_default_hook issue
         return issue

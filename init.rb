@@ -1,6 +1,6 @@
 require 'redmine'
 require 'helpdesk_hooks'
-require 'helpdesk_mailer'
+require 'helpdesk_mailer2'
 require 'journal_patch'
 require 'mail_handler_patch'
 require 'mailer_patch'
